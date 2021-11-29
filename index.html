@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Team3</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    
+    <u><h1>App Team3</h1></u>
+
+    <input type="text" id ="itemsName" placeholder ="ItemName">
+
+    <input type="number" id ="itemsprice" placeholder ="ItemPrice">
+    <br><br>
+    <button onclick="addItemToList()">Add item in the list</button>
+    <button onclick="Clear()">Clear</button>
+
+    <div class="List" id="List"></div>
+    <h3 id="total">Total: R0</h3>
+    
+    <hr>
+    <input type="number" id="ClientMoney" placeholder="Client Money">
+    <br><br>
+    <button onclick="CalculateClientChange()">Calculate Client Change</button>
+    <h3 id="ClientChange">Change :R0</h3>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
